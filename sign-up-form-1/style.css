@@ -123,3 +123,13 @@ span a{
     background-color:#596275;
     color: white;
 }
+
+@media screen and (max-width:900px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .left_side{
+        padding: 30px;
+    }
+}
