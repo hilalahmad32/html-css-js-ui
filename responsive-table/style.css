@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-image: linear-gradient(to left, rgb(52, 170, 101),rgb(34, 124, 207));
+}
+.container{
+    width:70%;
+    margin: 50px auto;
+}
+.container h2{
+    text-align: center;
+    color: white;
+}
+.table-responsive .table{
+    width:100%;
+    margin: 20px 0px;
+    border-collapse: collapse;
+    color: white;
+    border: 2px solid rgba(128, 128, 128, 0.342);
+}
+.table-responsive .table thead tr th {
+    text-align: left;
+    padding: 10px 20px;
+}
+.table-responsive .table thead tr{
+    background-color: rgba(255, 255, 255, 0.178);
+    border: 2px solid rgba(128, 128, 128, 0.342);
+}
+.table-responsive .table tbody td{
+    padding: 10px 20px;
+    border-bottom: 2px solid rgba(197, 193, 193, 0.445);
+}
+.table-responsive .table tbody tr:nth-of-type(even){
+    background-color: rgba(255, 255, 255, 0.24);
+}
+.table-responsive .table tbody tr:nth-of-type(odd):hover{
+    background-color: rgba(255, 255, 255, 0.24);
+
+}
+
+@media screen and (max-width: 900px) {
+    .table-responsive{
+        overflow-x: auto;
+    }
+}
